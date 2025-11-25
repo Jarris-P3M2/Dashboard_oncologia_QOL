@@ -85,10 +85,10 @@ calculate_score <- function(data_q, items_rel, type = "symptom", range_val = 3, 
 # items: Índices RELATIVOS a la sección de preguntas (La pregunta 1 del excel es el índice 1).
 
 survey_configs <- list(
-  "GENERICO" = list(type = "generic", meta_cols = 7),
+  "Encuesta generica" = list(type = "generic", meta_cols = 7),
   
   # 1. EORTC QLQ-C30 (Core)
-  "EORTC QLQ-C30" = list(
+  "EORTC QLQ-C30 General" = list(
     type = "defined", meta_cols = 7, range_global = 3,
     scales = list(
       list(name = "Salud Global / QoL", items = 29:30, type = "global", range = 6),
@@ -1156,4 +1156,5 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
 
