@@ -83,7 +83,4 @@ shiny::runApp("Dashboard_oncology_QOL.R")
 Fórmulas:
 - Escalas Funcionales: Score = (1 - ((RS - 1) / rango)) × 100
 - Escalas de Síntomas: Score = ((RS - 1) / rango) × 100
-
-## Aplicación en Contexto Clínico
-
 ---
