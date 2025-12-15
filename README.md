@@ -48,6 +48,8 @@ La herramienta permite visualizar, analizar y monitorear la calidad de vida de p
 ### Requisitos del Sistema
 
 Paquetes R requeridos:
+
+R versión 4.4.1
 install.packages(c("shiny", "shinydashboard", "readxl", "dplyr", 
                    "ggplot2", "lubridate", "DT", "plotly", 
                    "purrr", "tidyr", "viridis", "shinyWidgets"))
